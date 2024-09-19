@@ -3,7 +3,9 @@
 CommandToDo is a powerful AI-powered CLI application that simplifies your workflow by converting normal text into actionable commands. It integrates an AI model, based on Gemini, to help automate tasks and streamline productivity by generating accurate terminal commands from plain language instructions.
 
 <p align="center">
-   <img alt="Gif Demo" src="./.github/example.gif" >
+   
+   https://github.com/user-attachments/assets/0f651d1c-371b-4ba1-90e2-ec775afeedbd
+   
 <p>
 
 ## Features
@@ -22,6 +24,16 @@ CommandToDo is a powerful AI-powered CLI application that simplifies your workfl
 - NPM (comes with Node.js)
 - Gemini API Key: Make sure you have access to the Gemini AI API.
 - Windows Powershell
+
+## Dependencies
+
+This project uses the following npm packages:
+
+- **@clack/prompts**: A library for creating interactive command-line prompts.
+- **@google/generative-ai**: A client library for interacting with Google's generative AI services.
+- **chalk**: A library for styling terminal string output with colors.
+- **dotenv**: A module that loads environment variables from a `.env` file into `process.env`.
+- **clipboardy**: A library for accessing the system clipboard (copy and paste functionality).
 
 ## Installation
 
