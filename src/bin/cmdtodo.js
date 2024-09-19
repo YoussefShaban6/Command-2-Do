@@ -1,4 +1,5 @@
 import { exec } from "node:child_process";
+import clipboardy from "clipboardy";
 import { select, command } from "../services/geminiService.js";
 
 const userInput = select;
@@ -16,7 +17,8 @@ if (userInput === "yes") {
     console.log(`Stdout: ${stdout}`);
   });
 } else if (userInput === "revise") {
-  console.log("Please revise the command manually.");
+  clipboardy.writeSync(command);
+  console.log("Command copied to clipboard.");
   // Optionally, you can provide a way to edit the command here
 } else if (userInput === "cancel") {
   console.log("Operation cancelled.");
