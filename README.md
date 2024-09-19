@@ -70,9 +70,9 @@ node index.js
 You can type in natural language prompts, and the AI will generate the corresponding command:
 
 ```bash
-> Install express in this project
+> 2do Install express in this project
 $ npm install express
 
-> Create a new directory called 'my-project'
+> 2do Create a new directory called 'my-project'
 $ mkdir my-project
 ```
